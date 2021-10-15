@@ -1,0 +1,26 @@
+{
+ "name": "envsaver",
+ "version": "1.0.0",
+ "description": "A CLI to save variables locally",
+ "main": "src/index.js",
+ "bin": {
+  "@fury90723/envsaver": "bin/envsaver",
+  "envsaver": "bin/envsaver"
+ },
+ "publishConfig": {
+  "access": "public"
+ },
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "keywords": [
+  "cli",
+  "envsaver"
+ ],
+ "author": "Marco Tessarin",
+ "license": "MIT",
+ "dependencies": {
+  "arg": "^5.0.1",
+  "esm": "^3.2.18"
+ }
+}
